@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Introduction</title>
+<meta name="author" content="(Sean Chen)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Introduction</h1><h2 class="author">Sean Chen</h2><h2 class="date"><span class="timestamp-wrapper"><span class="timestamp">&lt;2016-07-27 Wed&gt;</span></span></h2><p class="date">Created: 2016-07-27 Wed 14:15</p>
+</section>
+<ul>
+<li>Title of Legal Works</li>
+<li>Creators of Legal Works</li>
+<li>Authorized Access Points of Laws</li>
+<li>Authorized Access Points of Treaties</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>In AACR2 we had uniform titles which provided a way in the card
+environment to collocate laws and treaties of a jurisdiction</li>
+<li>Now we have AAPs which provide identifiers to legal works</li>
+<li>Our aim here is to create authorized access points for legal materials.</li>
+
+</ul>
+
+</aside>
+
+<section>
+<section id="slide-orgheadline1">
+<h2 id="orgheadline1">What is a Legal Work?</h2>
+<ul>
+<li>There are some RDA definitions and vocabularies</li>
+<li>Other regularly acceptable terms and categorizations</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6">
+<h2 id="orgheadline6">RDA</h2>
+<ul>
+<li><a href="http://access.rdatoolkit.org/6.29.1.1.html">General Guidelines in Constructing AAPs Representing Legal Works</a></li>
+<li>RDA 6.29.1.1</li>
+
+</ul>
+</section>
+<section id="slide-orgheadline2">
+<h3 id="orgheadline2">Laws Etc.</h3>
+<p>
+List of types in <a href="http://access.rdatoolkit.org/6.29.1.1.html">RDA 6.29.1.1</a>
+</p>
+
+<ol>
+<li>Laws, etc.</li>
+<li>Adminsitrative regulations, etc. that are not laws</li>
+<li>Court rules</li>
+<li>Constitutions, charters, etc. of intergovernmental and
+non-jurisdiictional bodies</li>
+<li>treaties</li>
+<li>law reports, citations, digets, etc.</li>
+<li>court proceedings, etc.</li>
+
+</ol>
+</section>
+<section id="slide-orgheadline3">
+<h3 id="orgheadline3">Not Laws Etc.</h3>
+<ul>
+<li>legislative enactments and decrees of political jurisdictions
+(including fundamental laws such as constitutions, charters, etc.)</li>
+<li>decrees of a chief executive having the force of law (all hereinafter
+referred to as laws).</li>
+<li>Adminsitrative regulations that are not laws</li>
+<li>Court rules</li>
+<li>Treaties</li>
+
+</ul>
+</section>
+<section id="slide-orgheadline4">
+<h3 id="orgheadline4">Other Types of Legal Works</h3>
+<ul>
+<li>You know it when you see it</li>
+
+</ul>
+</section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">Annotated Editions of Laws and Law Commentaries</h3>
+<ul>
+<li>scholarly</li>
+<li>Annotated editions of laws and law commentaries</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline7">
+<h2 id="orgheadline7">LCGFT</h2>
+<ul>
+<li><a href="https://lccn.loc.gov/gf2011026351">Law Materials</a> is a Broader Term for
+<ul>
+<li>Administrative decisions</li>
+<li>all the way to</li>
+<li>Year books (English law reports)</li>
+
+</ul></li>
+<li>Helpful to use to categorize in terms of "is it legal?"</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8">
+<h2 id="orgheadline8">Creating an Authority Record</h2>
+<ul>
+<li>Record the preferred title of the work</li>
+<li>Record any other relevant attributes of the work</li>
+<li>Construct the authorized access point for the work</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

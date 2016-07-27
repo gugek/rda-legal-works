@@ -1,0 +1,244 @@
+#+TITLE: Legal Works
+#+DATE: <2016-07-27 Wed>
+#+AUTHOR: Sean Chen
+#+EMAIL: schen@law.duke.edu
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.50.1 (Org mode 8.3.4)
+#+REVEAL_THEME: white
+
+* Introduction to RDA & Legal Works
+
+** Overview
+  - Title of Legal Works
+  - Creators of Legal Works
+  - Authorized Access Points of Laws
+  - Authorized Access Points of Treaties
+
+  #+BEGIN_NOTES
+  - In AACR2 we had uniform titles which provided a way in the card
+    environment to collocate laws and treaties of a jurisdiction
+  - Now we have AAPs which provide identifiers to legal works
+  - Our aim here is to create authorized access points for legal materials.
+  #+END_NOTES
+
+** What is a Legal Work? 
+   - There are some RDA definitions and vocabularies
+   - Other regularly acceptable terms and categorizations
+** RDA
+   - [[http://access.rdatoolkit.org/6.29.1.1.html][General Guidelines in Constructing AAPs Representing Legal Works]]
+   - RDA 6.29.1.1
+*** Laws Etc.
+    List of types in [[http://access.rdatoolkit.org/6.29.1.1.html][RDA 6.29.1.1]]
+
+    a) Laws, etc.
+    b) Adminsitrative regulations, etc. that are not laws
+    c) Court rules
+    d) Constitutions, charters, etc. of intergovernmental and
+       non-jurisdiictional bodies
+    e) treaties
+    f) law reports, citations, digets, etc.
+    g) court proceedings, etc.
+*** Not Laws Etc. 
+    - legislative enactments and decrees of political jurisdictions
+      (including fundamental laws such as constitutions, charters, etc.)
+    - decrees of a chief executive having the force of law (all hereinafter
+      referred to as laws).
+    - Adminsitrative regulations that are not laws
+    - Court rules
+    - Treaties
+*** Other Types of Legal Works
+    - You know it when you see it
+*** Annotated Editions of Laws and Law Commentaries
+    - scholarly
+    - Annotated editions of laws and law commentaries
+** LCGFT
+   - [[https://lccn.loc.gov/gf2011026351][Law Materials]] is a Broader Term for
+     - Administrative decisions
+     - all the way to 
+     - Year books (English law reports)
+   - Helpful to use to categorize in terms of "is it legal?"
+
+
+** Creating an Authority Record
+   - Record the preferred title of the work
+   - Record any other relevant attributes of the work
+   - Construct the authorized access point for the work
+* Title of a Legal Work
+** General Instructions
+  - [[http://access.rdatoolkit.org/6.2.2.4.html][Works Created after 1500 (6.2.2.4)]]
+    #+BEGIN_QUOTE
+    If there is no title or form of title in the original language established
+    as the one by which the work is commonly identified or in case of doubt
+    then:
+      - *choose the title proper of the original edition (see 2.3.2) as the
+        preferred title.*
+    #+END_QUOTE
+*** Caveats
+    - Instructions for different classes of legal materials
+    - Remember that this is to form the basis of an AAP
+** [[http://access.rdatoolkit.org/6.19.2.html][Preferred Title for a Legal Work]]
+   - Core Element
+   - RDA [[http://access.rdatoolkit.org/6.19.2.html][6.19.2]]
+   - Start with the basic 6.2.2.4 instructions
+   - Except for:
+     - Laws etc: [[http://access.rdatoolkit.org/6.19.2.5.html][6.19.2.5]] & [[http://access.rdatoolkit.org/6.19.2.6.html][6.19.2.6]]
+     - Treaties: [[http://access.rdatoolkit.org/6.19.2.7.html][6.19.2.7]] & [[http://access.rdatoolkit.org/6.19.2.8.html][6.19.2.8]]
+
+** Modern Laws, Etc.
+
+   - Radically simplified
+   - Find the title from a series
+   - And what is a law?
+     #+BEGIN_NOTES
+     - Got rid of Laws etc completely as a conventional collective title
+       - we saw this with compliations
+       - made compilations the same as laws
+     - Call a law what it is.
+     #+END_NOTES
+
+*** Order of Preference
+    - Official short title or citation title
+    - Unofficial short title or citation title used in legal literature
+    - Official title of the enactment or compilation
+    - any other official designation
+
+*** Compilation of Laws, Etc.
+    #+ATTR_HTML: :height 25%, :width 25%
+    [[./images/revised-statutes-of-canada.jpg]]
+    #+BEGIN_NOTES
+    - What would the title be here for this compilation?
+    - What is the title of the work here?
+    - Any other issues you can see here?
+    #+END_NOTES
+
+*** Compilation of Laws, Etc.
+    #+ATTR_HTML: :height 25%, :width 25%
+    [[./images/MR6_010416_521922_7%203.jpg]]
+    #+BEGIN_NOTES
+    - What wouldthe title be here for this compilation?
+    - What is the title of the work?
+    - Any other issues you see here?
+    #+END_NOTES
+
+*** Single Laws, Etc.
+    #+ATTR_HTML: :height 50%, :width 50%
+    [[./images/ppaca.png]]
+
+    #+BEGIN_NOTES
+    What would the title be here for this single law?
+    #+END_NOTES
+*** Single Laws, Etc.
+    - http://www.ncleg.net/Sessions/2015E2/Bills/House/PDF/H2v4.pdf
+    #+ATTR_HTML: :height 25%, :width 25%
+    [[./images/H2v4%201.jpg]]
+
+    #+BEGIN_NOTES
+    What would the title be here for this single law?
+    #+END_NOTES
+*** Types of Titles
+    - short title of a legal work
+    - citation title of a legal work
+    #+BEGIN_NOTES
+    - A title of a legal work that is given either in the text of the work or
+      in legal literature and that succinctly names the work and often
+      reflects how it is popularly known.
+    - A title of a legal work used for the citation of the work either in the
+      text of the work or in legal literature.
+    #+END_NOTES
+
+** Ancient Laws, Certain Medieval Laws, Customary Laws, Etc. 
+   - Doing the right thing here ...
+   - Using the most commonly identified title.
+     - be it reference sources
+     - or otherwise
+   - In the authority file already and established!
+   #+BEGIN_NOTES
+   - Trying to use the most commonly identified title! 
+   - Often these are already established and set up
+   #+END_NOTES
+*** Ancient Laws
+    #+ATTR_HTML: :height 25%, :width 25%
+    [[./images/osu.32435066317538-5-1469639108.jpg]]
+    #+BEGIN_NOTES
+    - Be careful ... already established ... in AACR2
+    - Depends on reference sources in many cases
+    - https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+    #+END_NOTES
+** One Treaty
+   - Treaty Definition via Black's Law Dictionary
+     #+BEGIN_QUOTE
+     An agreement formally signed, ratified, or adhered to between two nations
+     or sovereigns; an international agreeemnt concluded between two or more
+     states in written form and governed by international law.
+     #+END_QUOTE
+   - Official title of the treaty
+   - Short or citation title
+   - Any other "official" designation
+*** Example Treaty
+    - http://www.state.gov/documents/organization/202693.pdf
+    #+REVEAL_HTML: <img width="40%" src="images/202693%201.jpg">
+    #+REVEAL_HTML: <img width="40%" src="images/202693%204.jpg">
+    #+BEGIN_NOTES
+    Commonly known as New START
+    #+END_NOTES
+** Compilations of Treaties 
+   - Has a collective name
+   - Rarely see these in practice
+   - Fallback to general preferred title instructions
+   #+BEGIN_NOTES
+     Collective name is a "collective" treaty name, not necessarily the title
+     of the manifestation.
+     #+END_NOTES
+** Treaty Caveats
+   - There use to be a distinction between multilateral and bilateral
+     treaties. This is gone now.
+   - Treaties etc. used to be used for bilateral treaties as a conventional
+     collective title.
+** Other Kinds of Legal Materials
+   - Just follow regular title instructions
+*** Constitutions
+    #+ATTR_HTML: :height 15%, :width 15%
+    [[./images/constitution.png]]
+*** Reporter
+   #+ATTR_HTML: :height 33%, :width 33%
+    [[./images/federal_reporter.png]]
+   #+BEGIN_NOTES
+   - Serial generally.
+   - taking the title
+   #+END_NOTES
+*** Court Rules
+   #+ATTR_HTML: :height 25%, :width 25%
+   [[./images/rules-of-appellate-procedure_Page_01.jpg]]
+   #+BEGIN_NOTES
+   - What would the title be here for this compilation?
+   - What is the title of the work here?
+   - Any other issues you can see here?
+   - Is there FRAP a law?
+   #+END_NOTES
+*** Records and Briefs
+   #+ATTR_HTML: :height 25%, :width 25%
+   [[./images/Pages from 15-1138_bernardo_opp_1.jpg]]
+   #+BEGIN_NOTES
+   Just concentrate on the prefrerred title
+   #+END_NOTES
+   
+** Variant Title for a Legal Work
+   - General guidelines
+     - Follow basic instructions in [[http://access.rdatoolkit.org/6.2.1.html][RDA 6.2.1]]
+     - Any way its been cited or issued
+     - Different transliterations
+   - Exceptions for what is on the piece
+     - only record when
+       - Differs signficantly
+       - Reasonable searcher would use
+     - Note though this will be the preferred title in many cases
+*** Citations   
+    - Often legal works have citations
+      - F.3d
+      - R.S.C.
+    - These can be variants!
+* Creator of a Legal Work
+* Constructing Authorized Access Points of Laws
+* Constructing Authorized Access Points of Treaties
