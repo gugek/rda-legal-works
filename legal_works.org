@@ -60,6 +60,7 @@
      - Year books (English law reports)
    - Helpful to use to categorize in terms of "is it legal?"
 
+
 ** Creating an Authority Record
    - Record the preferred title of the work
    - Record any other relevant attributes of the work
@@ -123,7 +124,7 @@
 
 *** Single Laws, Etc.
     #+ATTR_HTML: :height 50%, :width 50%
-    [[./images/ppaca.jpeg]]
+    [[./images/ppaca.jpg]]
 
     #+BEGIN_NOTES
     What would the title be here for this single law?
@@ -199,10 +200,10 @@
    - Just follow regular title instructions
 *** Constitutions
     #+ATTR_HTML: :height 15%, :width 15%
-    [[./images/constitution.jpeg]]
+    [[./images/constitution.jpg]]
 *** Reporter
    #+ATTR_HTML: :height 33%, :width 33%
-    [[./images/federal_reporter.jpeg]]
+    [[./images/federal_reporter.jpg]]
    #+BEGIN_NOTES
    - Serial generally.
    - taking the title
