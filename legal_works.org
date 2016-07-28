@@ -60,7 +60,6 @@
      - Year books (English law reports)
    - Helpful to use to categorize in terms of "is it legal?"
 
-
 ** Creating an Authority Record
    - Record the preferred title of the work
    - Record any other relevant attributes of the work
