@@ -240,5 +240,89 @@
       - R.S.C.
     - These can be variants!
 * Creator of a Legal Work
+** FRBR Group 2 Entities Associated with a Work
+   - Persons
+   - Corporate bodies
+   - Families
+   - Note: Jurisdictions are - Corporate bodies
+     - But established with geo name instructions
+
+** Creators
+
+   Scope - RDA [[http://access.rdatoolkit.org/19.2.1.1.html][19.2.1.1]]
+   #+BEGIN_QUOTE
+   A creator is a person, family, or corporate body responsible for the
+   creation of a work.
+   #+END_QUOTE
+
+** Corporate Bodies Considered to Be Creators
+   Categories of Creators:
+   [[http://access.rdatoolkit.org/19.2.1.1.1.html][19.2.1.1.1]]   
+
+   One or more of the following categories:
+
+   a. Works of an administrative nature
+   b. Works that record the collective thought of the body
+   c. *Works that record hearings conducted by legislative, juducial,
+      governmental and other corporate bodies.*
+   d. Works that report the collective activity of (i) a conference, or (ii)
+      an expedition, or (iii) an event.
+   e. Works from the collective activity of a performing group
+   f. Cartographic works from a corporate body
+
+** Legal Categories
+   Categories of Creators:
+   [[http://access.rdatoolkit.org/19.2.1.1.1.html][19.2.1.1.1]]
+
+   g. Legal works of the following types
+      1) laws
+      2) decrees of a head of state, chief executive, or ruling executive body
+      3) bills and drafts of legislation
+      4) administrative regulations, etc.
+      5) constitutions, charters, etc.
+      6) court rules
+      7) charges to juries, indictments, court proceedings, and court
+         decisions
+
+** Government (and Religious) Officials 
+   - Official communications
+   - Executive Branches
+     - Note that a separate NAR is established for the officials
+
+** MARC Coding
+   
+   - 1XX Field
+   - Relationship designator
+
+*** Examples
+    #+BEGIN_EXAMPLE
+    110 1# United States. $t Patient Protection and Affordable Care Act
+
+    110 1# New York (State). $t Constitution (1894)
+
+    110 1# Chicago (Ill.). Chicago Zoning Ordinance
+    #+END_EXAMPLE
+
+*** Relationship Designator
+    + No relationship designator in NARs
+
+    For bibliographic
+      + ~$e enacting jurisdiction~ seems to be the default
+      + But can always fall back to nothing.
+      + "Creator"" relationships versus "associated"
+
+** Other Bodies Associated with a Legal Work
+   - Court proceedings
+   - Judicial decisions & opinions
+*** Court Proceedings
+    - Not a creator relationship?
+    - Not often we would need a NAR for it
+*** Judicial decisions & opinions
+    - opinions are authored personally
+    - judicial decisions
+      - reporters
+      - related entity: court
 * Constructing Authorized Access Points of Laws
+
+  
 * Constructing Authorized Access Points of Treaties
