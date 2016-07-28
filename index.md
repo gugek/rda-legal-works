@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # RDA-NACO Legal Works
 [Introduction](./1_introduction.html)
 [Preferred Title for a Legal Work](./2_preferred_title_for_a_legal_work.html)
