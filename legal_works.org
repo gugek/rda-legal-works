@@ -123,7 +123,7 @@
 
 *** Single Laws, Etc.
     #+ATTR_HTML: :height 50%, :width 50%
-    [[./images/ppaca.png]]
+    [[./images/ppaca.jpeg]]
 
     #+BEGIN_NOTES
     What would the title be here for this single law?
@@ -199,10 +199,10 @@
    - Just follow regular title instructions
 *** Constitutions
     #+ATTR_HTML: :height 15%, :width 15%
-    [[./images/constitution.png]]
+    [[./images/constitution.jpeg]]
 *** Reporter
    #+ATTR_HTML: :height 33%, :width 33%
-    [[./images/federal_reporter.png]]
+    [[./images/federal_reporter.jpeg]]
    #+BEGIN_NOTES
    - Serial generally.
    - taking the title
