@@ -60,7 +60,6 @@
      - Year books (English law reports)
    - Helpful to use to categorize in terms of "is it legal?"
 
-
 ** Creating an Authority Record
    - Record the preferred title of the work
    - Record any other relevant attributes of the work
@@ -263,7 +262,7 @@
 
    a. Works of an administrative nature
    b. Works that record the collective thought of the body
-   c. *Works that record hearings conducted by legislative, juducial,
+   c. *Works that record hearings conducted by legislative, judicial,
       governmental and other corporate bodies.*
    d. Works that report the collective activity of (i) a conference, or (ii)
       an expedition, or (iii) an event.
@@ -322,6 +321,16 @@
     - judicial decisions
       - reporters
       - related entity: court
+*** Records & Briefs
+    - Records of parties are "created by the party"
+    - Arguments - lawyer
+    - Amicus briefs are a bit trickier
+      - Look to creator instructions
+      - Default to no creator
+* Other Attributes of a Legal Work
+** Date of a Legal Work
+** Other Distinguishing Characteristics of a Legal Work
+** Participants of a Treaty
 * Constructing Authorized Access Points of Laws
 
   
