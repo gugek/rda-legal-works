@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Constructing Authorized Access Points of Treaties</title>
+<meta name="author" content="(Sean Chen)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Constructing Authorized Access Points of Treaties</h1><h2 class="author">Sean Chen</h2><h2 class="date">2016-07-27 Wed 00:00</h2><p class="date">Created: 2018-06-28 Thu 12:52</p>
+</section>
+<section>
+<section id="slide-org25209a9">
+<h2 id="org25209a9">Treaties</h2>
+<ul>
+<li>Preferred title of the treaty!</li>
+<li>Much simpler!</li>
+<li>Always include the date of the treaty</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc643549">
+<h2 id="orgc643549">Protocols, Amendments, Etc.</h2>
+<ul>
+<li>Based on the AAP for the base treaty</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbda51fb">
+<h2 id="orgbda51fb">Compilation of Treaties</h2>
+<ul>
+<li>Falls into typical compilation instructions <a href="http://access.rdatoolkit.org/rdachp6_rda6-6626.html">RDA 6.27.1.4</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

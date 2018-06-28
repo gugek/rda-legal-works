@@ -334,6 +334,7 @@
 ** Date of a Legal Work
    - Core element for identifying a treaty
    - Core element when needed to differentiate works
+   - In [[http://access.rdatoolkit.org/rdachp6_rda6-5251.html][RDA 6.20]]
    #+BEGIN_NOTES
    - Generally for most laws practice is to record a date especially for
      modern laws. But its not core in many instances ... but most records will
@@ -364,9 +365,70 @@
     - Bluebook example: /Protocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13./
 
 ** Other Distinguishing Characteristics of a Legal Work
+   - Catchall attributes
+   - In [[http://access.rdatoolkit.org/rdachp6_rda6-30257.html][RDA 6.21]]
+*** Jurisdiction Governed
+    - /A jurisdiction governed by a law, regulation, etc., that was enacted by
+      another jurisdiction./
+    - Different from the creator relationship ... /enacting jurisdiction/
+    #+BEGIN_NOTES
+    - Can get a bit tricky sometimes especically for colonial powers
+    #+END_NOTES
+
+*** Protocol, Etc.
+    - Needed for identifying certain types of treaties
+    - /A treaty or other agreement that amends or supplements another treaty./
+    - Not particularly common.
+    - We'll refer back again in AAP construction
 ** Participants of a Treaty
+   - [[http://access.rdatoolkit.org/rdachp6_rda6-5321.html][RDA 6.22]] ... but it goes to [[http://access.rdatoolkit.org/rdachp19_rda19-10246.html][RDA 19.3.2.13]]
+   - Core if being used to creating the access points
+   - Not generally needed for multilateral ones
+   - Record using AAP for the participant
 * Constructing Authorized Access Points of Laws
-** More Categories
+** General Guidelines
+   - Lots of categories
+*** Laws Etc
+*** Commentaries
+*** Other Type of Legal Works
+*** Additions to the Authorized Access Point
+
+** Laws Governing One Jurisdiction
+   - Jurisdiction AAP + Preferred title
+** Laws Governing More than One Jurisdiction
+** AAdministrative Regulations, Etc., That Are Laws 
+** Bills & Drafts of Regulation
+** Ancient Laws, Certain Medieval Laws, Customary Laws, Etc.
+** Administrative Regulations, Etc., Promulgated by Government Agencies, Etc., That Are Not Laws
+   - Federal Register 
+** Laws and Derived Regulations, Etc., Issued Together
+   - Go with the AAP of the law!
+** Compilations of Administrative Regulations, Etc.
+   - Back to the Federal Register
+** Court Rules
+   - Rules Governing a Single Court
+   - Compilations of Rules Governing More Than One Court of a Single Jurisdiction
+   - Other Compilations of Court Rules
+** Constitutions, Charters, Etc., of International Intergovernmental Bodies
+   - ~United Nations. Charter of the United Nations~
+** Constitutions, Charters, Etc., of Non-jurisdictional Bodies
+   - Businesses ...  
+
+** Other Types of Legal Materials
+   - Court records & briefs
+   - Court reports
+   - Judicial opinions & decisions
+   - Citators and digests
   
-  
-* Constructing Authorized Access Points of Treaties
+* Constructing Authorized Access Point of Treaties
+
+** Treaties
+  - Preferred title of the treaty!
+  - Much simpler!
+  - Always include the date of the treaty
+
+** Protocols, Amendments, Etc.
+   - Based on the AAP for the base treaty
+
+** Compilation of Treaties
+   - Falls into typical compilation instructions [[http://access.rdatoolkit.org/rdachp6_rda6-6626.html][RDA 6.27.1.4]]
