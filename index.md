@@ -1,7 +1,9 @@
 ---
+title: RDA-NACO Legal Works
 layout: default
 ---
 # RDA-NACO Legal Works
+
 + [Introduction](./1_introduction.html)
 + [Preferred Title for a Legal Work](./2_preferred_title_for_a_legal_work.html)
 + [Creator of a Legal Work](./3_creator_of_a_legal_work.html)
