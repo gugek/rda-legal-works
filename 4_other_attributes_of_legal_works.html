@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Other Attributes of a Legal Work</title>
+<meta name="author" content="(Sean Chen)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Other Attributes of a Legal Work</h1><h2 class="author">Sean Chen</h2><h2 class="date">2016-07-27 Wed 00:00</h2><p class="date">Created: 2018-06-28 Thu 12:10</p>
+</section>
+<section>
+<section id="slide-org9d761ac">
+<h2 id="org9d761ac">Date of a Legal Work</h2>
+<ul>
+<li>Core element for identifying a treaty</li>
+<li>Core element when needed to differentiate works</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Generally for most laws practice is to record a date especially for
+modern laws. But its not core in many instances &#x2026; but most records will
+include it.</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgf29ba96">
+<h3 id="orgf29ba96">Date of Promulgation of a Law, Etc</h3>
+<ul>
+<li>You will typically find this in manifestations of the work.</li>
+<li><i>A year a law, etc., was promulgated or brought into force</i></li>
+<li>Recorded later in MARC 130/240 if needed for AAP</li>
+<li>Also in <code>046 $k</code></li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Not typically called "promulgation" in U.S. federal legislation</li>
+<li>Enacted is typically used</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org13ccefb">
+<h3 id="org13ccefb">Example Public Law</h3>
+<ul height="25%," width="25%">
+<li><img src="./images/128_stat_3094.JPG" alt="128_stat_3094.JPG" /></li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>Date here is the enactment date &#x2026; signed by President</li>
+
+</ul>
+
+</aside>
+</section>
+<section id="slide-orgd7bdce4">
+<h3 id="orgd7bdce4">Date of a Treaty</h3>
+<ul>
+<li><i>An earliest date a treaty or a protocol to a treaty was adopted by an international intergovernmental body or by an international conference, was opened for signing, was formally signed, was ratified, was proclaimed, etc</i></li>
+
+</ul>
+</section>
+<section id="slide-org778845a">
+<h3 id="org778845a">Is there a priority order?</h3>
+<ul>
+<li>No there isn't a prescribed one but &#x2026;</li>
+<li>Typical legal citation uses the date of signing</li>
+<li>Bluebook example: <i>Protocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13.</i></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org7ce74cf">
+<h2 id="org7ce74cf">Other Distinguishing Characteristics of a Legal Work</h2>
+</section>
+</section>
+<section>
+<section id="slide-org07778ef">
+<h2 id="org07778ef">Participants of a Treaty</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

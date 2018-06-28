@@ -189,7 +189,7 @@
    #+BEGIN_NOTES
      Collective name is a "collective" treaty name, not necessarily the title
      of the manifestation.
-     #+END_NOTES
+   #+END_NOTES
 ** Treaty Caveats
    - There use to be a distinction between multilateral and bilateral
      treaties. This is gone now.
@@ -313,6 +313,9 @@
 ** Other Bodies Associated with a Legal Work
    - Court proceedings
    - Judicial decisions & opinions
+   - Records and briefs
+*** Review Chapter 19.3.2
+   - Chapter 19.3.2 (Other PErsons associated witha  legal work)
 *** Court Proceedings
     - Not a creator relationship?
     - Not often we would need a NAR for it
@@ -329,9 +332,41 @@
       - Default to no creator
 * Other Attributes of a Legal Work
 ** Date of a Legal Work
+   - Core element for identifying a treaty
+   - Core element when needed to differentiate works
+   #+BEGIN_NOTES
+   - Generally for most laws practice is to record a date especially for
+     modern laws. But its not core in many instances ... but most records will
+     include it.
+   #+END_NOTES
+
+*** Date of Promulgation of a Law, Etc
+    - You will typically find this in manifestations of the work.
+    - /A year a law, etc., was promulgated or brought into force/
+    - Recorded later in MARC 130/240 if needed for AAP
+    - Also in ~046 $k~
+   #+BEGIN_NOTES
+   - Not typically called "promulgation" in U.S. federal legislation
+   - Enacted is typically used
+   #+END_NOTES
+   
+*** Example Public Law
+    #+ATTR_HTML: :height 25%, :width 25%
+    - [[./images/128_stat_3094.JPG]]
+    #+BEGIN_NOTES
+    - Date here is the enactment date ... signed by President
+    #+END_NOTES
+*** Date of a Treaty
+    - /An earliest date a treaty or a protocol to a treaty was adopted by an international intergovernmental body or by an international conference, was opened for signing, was formally signed, was ratified, was proclaimed, etc/
+*** Is there a priority order?
+    - No there isn't a prescribed one but ...
+    - Typical legal citation uses the date of signing
+    - Bluebook example: /Protocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13./
+
 ** Other Distinguishing Characteristics of a Legal Work
 ** Participants of a Treaty
 * Constructing Authorized Access Points of Laws
-
+** More Categories
+  
   
 * Constructing Authorized Access Points of Treaties
