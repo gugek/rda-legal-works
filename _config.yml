@@ -1,4 +1,4 @@
-theme: minima
+theme: jekyll-theme-minimal
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "CHANGELOG.md", "LICENSE.md"]
 highlighter: rouge
 markdown: kramdown
